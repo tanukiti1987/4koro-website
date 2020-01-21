@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "http://example.org/"
+baseURL = "https://naughty-spence-f3c5c4.netlify.com/"
 languageCode = "en-us"
 title = "Restaurant Theme By Themefisher"
 theme="restaurant-hugo"
@@ -41,7 +41,7 @@ paginate = 4
 
 ############################## navigation ###############################
 [menu]
-	
+
 	[[menu.main]]
   name = "Home"
   URL = "hero-area"
@@ -132,7 +132,7 @@ image = "images/slider/slider-img-1.jpg"
 [[params.footer.gallery]]
 image = "images/slider/slider-img-2.jpg"
 
-######################## Social Icon 
+######################## Social Icon
 [[params.footer.socialLink]]
 icon = "facebook"
 link = "https://fb.com/themefisher"
