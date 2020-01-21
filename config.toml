@@ -1,7 +1,7 @@
 ######################## default configuration ####################
-baseURL = "https://naughty-spence-f3c5c4.netlify.com/"
+baseURL = "https://www.4koro.dev/"
 languageCode = "en-us"
-title = "Restaurant Theme By Themefisher"
+title = "手作り揚げたての揚げ物とお弁当のお店 - 4丁目のコロッケ屋さん"
 theme="restaurant-hugo"
 summaryLength = "7"
 paginate = 4
@@ -43,12 +43,12 @@ paginate = 4
 [menu]
 
 	[[menu.main]]
-  name = "Home"
+  name = "ホーム"
   URL = "hero-area"
   weight = 1
 
   [[menu.main]]
-  name = "About Us"
+  name = "メッセージ"
   URL = "about-us"
   weight = 2
 
@@ -58,7 +58,7 @@ paginate = 4
   weight = 3
 
   [[menu.main]]
-  name = "Price"
+  name = "メニュー"
   URL = "price"
   weight = 4
 
@@ -77,12 +77,12 @@ paginate = 4
 [params]
 logo = "images/logo.png"
 # meta data
-author = "Themefisher"
+author = "4丁目のコロッケ屋さん"
 description = "This is meta description"
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # copyright
-copyright = "Copyright 2019 - All Rights Reserved. Design and Developed By Themefisher.com"
+copyright = "Copyright 2020 - All Rights Reserved. Design and Developed By Themefisher.com"
 
 # Preloader
 [params.preloader]
@@ -92,26 +92,26 @@ preloader = "" # use .png , .svg or .gif format
 ################################### Footer ############################
 [params.footer]
 enable = true
-contactInfoTitle = "CONTACT <span>INFO</span> "
+contactInfoTitle = "連絡先"
 blogTitle = "LATEST <span>BLOG POSTS</span>"
 galleryTitle = "PHOTO <span>STREAM</span>"
-socialTitle = "Follow <span>US</span>"
+# socialTitle = "Follow <span>US</span>"
 
 ############################ footer contact item
 [[params.footer.contactItem]]
-title="Telephone"
+title="電話番号"
 icon = "fa fa-phone"
-content = "016742 323313"
+content = "0285-45-0607"
 
 [[params.footer.contactItem]]
-title="Address"
+title="住所"
 icon = "fa fa-map-marker"
-content = "2046 Blue Spruce Lane Laurel Canada"
+content = "栃木県小山市大字間々田１６５１−６"
 
-[[params.footer.contactItem]]
-title="E mail"
-icon = "fa fa-envelope"
-content = "rest@gmail.com - rest@mail.ru"
+#[[params.footer.contactItem]]
+# title="E mail"
+# icon = "fa fa-envelope"
+# content = "rest@gmail.com - rest@mail.ru"
 
 ######################### footer gallery
 [[params.footer.gallery]]
@@ -133,18 +133,18 @@ image = "images/slider/slider-img-1.jpg"
 image = "images/slider/slider-img-2.jpg"
 
 ######################## Social Icon
-[[params.footer.socialLink]]
-icon = "facebook"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "twitter"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "dribbble"
-link = "https://fb.com/themefisher"
-
-[[params.footer.socialLink]]
-icon = "instagram"
-link = "https://fb.com/themefisher"
+# [[params.footer.socialLink]]
+# icon = "facebook"
+# link = "https://fb.com/themefisher"
+#
+# [[params.footer.socialLink]]
+# icon = "twitter"
+# link = "https://fb.com/themefisher"
+#
+# [[params.footer.socialLink]]
+# icon = "dribbble"
+# link = "https://fb.com/themefisher"
+#
+# [[params.footer.socialLink]]
+# icon = "instagram"
+# link = "https://fb.com/themefisher"
