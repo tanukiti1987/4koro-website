@@ -94,7 +94,7 @@ preloader = "" # use .png , .svg or .gif format
 enable = true
 contactInfoTitle = "営業時間 <span>・</span> 連絡先"
 blogTitle = "LATEST <span>BLOG POSTS</span>"
-galleryTitle = "PHOTO <span>STREAM</span>"
+# galleryTitle = "PHOTO <span>STREAM</span>"
 # socialTitle = "Follow <span>US</span>"
 
 ############################ footer contact item
@@ -124,23 +124,23 @@ content = "栃木県小山市大字間々田１６５１−６"
 # content = "rest@gmail.com - rest@mail.ru"
 
 ######################### footer gallery
-[[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-3.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-4.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-1.jpg"
-
-[[params.footer.gallery]]
-image = "images/slider/slider-img-2.jpg"
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-1.jpg"
+#
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-2.jpg"
+#
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-3.jpg"
+#
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-4.jpg"
+#
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-1.jpg"
+#
+# [[params.footer.gallery]]
+# image = "images/slider/slider-img-2.jpg"
 
 ######################## Social Icon
 # [[params.footer.socialLink]]
