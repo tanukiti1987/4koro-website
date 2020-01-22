@@ -62,15 +62,15 @@ paginate = 4
   URL = "price"
   weight = 4
 
-  [[menu.main]]
-  name = "News"
-  URL = "subscribe"
-  weight = 5
+#  [[menu.main]]
+#  name = "News"
+#  URL = "subscribe"
+#  weight = 5
 
   [[menu.main]]
-  name = "Contact Us"
-  URL = "contact-us"
-  weight = 6
+  name = "営業時間・連絡先"
+  URL = "footer"
+  weight = 5
 
 
 #################### default parameters ################################
