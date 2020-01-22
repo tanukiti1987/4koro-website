@@ -92,12 +92,22 @@ preloader = "" # use .png , .svg or .gif format
 ################################### Footer ############################
 [params.footer]
 enable = true
-contactInfoTitle = "連絡先"
+contactInfoTitle = "営業時間 <span>・</span> 連絡先"
 blogTitle = "LATEST <span>BLOG POSTS</span>"
 galleryTitle = "PHOTO <span>STREAM</span>"
 # socialTitle = "Follow <span>US</span>"
 
 ############################ footer contact item
+[[params.footer.contactItem]]
+title="営業時間"
+icon = "fa fa-briefcase"
+content = "10:00 ~ 19:00 （売り切れ次第終了）"
+
+[[params.footer.contactItem]]
+title="定休日"
+icon = "fa fa-bell-slash"
+content = "毎週月曜日、毎月第3火曜日"
+
 [[params.footer.contactItem]]
 title="電話番号"
 icon = "fa fa-phone"
