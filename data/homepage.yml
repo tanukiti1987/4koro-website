@@ -37,29 +37,172 @@ blog:
 ################# food Menu ################
 pricing:
   enable : true
-  title : "Our Easy <span>PRICE</span>"
-  description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
-  subtitle : "FEATURED ON THE WEEK"
-  pricingItem:
-  - title: "Pancakes n' Such Titas"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 125.00"
+  title : "お惣菜・お弁当のご案内"
+  description: "すべて手作りのお惣菜・お弁当。お昼に、夕食に食べていただきやすいよう、種類も価格も充実させています。価格はすべて税込みです。"
+  sections:
+    - sectionName: "おすすめのお惣菜"
+      pricingItem:
+      - title: "コロッケ"
+        description: ""
+        price : "70円"
 
-  - title: "Caesar Salad"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 100.00"
+      - title: "メンチ"
+        description: ""
+        price : "90円"
 
-  - title: "Steak with a Garlic and Parsley Risotto"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 20.00"
+      - title: "ハムカツ"
+        description: ""
+        price : "70円"
 
-  - title: "Meat of Skewers"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 45.00"
+      - title: "ポテトフライ（3個）"
+        description: ""
+        price : "70円"
 
-  - title: "Pancakes n' Such"
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim&&"
-    price : "$ 25.00"
+      - title: "アジフライ"
+        description: ""
+        price : "108円"
+
+      - title: "イカフライ（3個）"
+        description: ""
+        price : "130円"
+
+      - title: "海老フライ"
+        description: ""
+        price : "130円"
+
+      - title: "串カツ"
+        description: ""
+        price : "108円"
+
+      - title: "チキンカツ"
+        description: ""
+        price : "324円"
+
+      - title: "とんかつ（ロース）"
+        description: ""
+        price : "280円"
+
+      - title: "上とんかつ（ロース）"
+        description: ""
+        price : "389円"
+
+      - title: "ヒレカツ"
+        description: ""
+        price : "432円"
+
+      - title: "ひれ一口カツ（1個）"
+        description: ""
+        price : "108円"
+
+      - title: "若鶏唐揚げ 100g"
+        description: ""
+        price : "176円"
+
+      - title: "焼豚 100g"
+        description: ""
+        price : "198円"
+
+      - title: "チキンロール 100g"
+        description: ""
+        price : "168円"
+
+      - title: "生餃子 10個入り"
+        description: ""
+        price : "270円"
+
+      - title: "焼き餃子 10個入り"
+        description: ""
+        price : "330円"
+
+    - sectionName: "おすすめのお弁当"
+      pricingItem:
+      - title: "コロッケ弁当"
+        description: ""
+        price : "500円"
+
+      - title: "メンチ弁当"
+        description: ""
+        price : "520円"
+
+      - title: "コロ・ハム弁当"
+        description: ""
+        price : "464円"
+
+      - title: "コロ・アジ弁当"
+        description: ""
+        price : "453円"
+
+      - title: "メンチ・コロッケ弁当"
+        description: ""
+        price : "485円"
+
+      - title: "メン・ハム弁当"
+        description: ""
+        price : "485円"
+
+      - title: "メン・アジ弁当"
+        description: ""
+        price : "475円"
+
+      - title: "からあげ弁当"
+        description: ""
+        price : "520円"
+
+      - title: "スペシャル弁当"
+        description: ""
+        price : "650円"
+
+      - title: "海鮮ミックス弁当"
+        description: ""
+        price : "550円"
+
+      - title: "アジフライ弁当"
+        description: ""
+        price : "540円"
+
+      - title: "イカフライ弁当"
+        description: ""
+        price : "550円"
+
+      - title: "海老フライ弁当"
+        description: ""
+        price : "680円"
+
+      - title: "ヒレかつ弁当"
+        description: ""
+        price : "650円"
+
+      - title: "とんかつ弁当"
+        description: ""
+        price : "605円"
+
+      - title: "かつ丼"
+        description: ""
+        price : "540円"
+
+      - title: "ヒレかつ丼"
+        description: ""
+        price : "650円"
+
+      - title: "餃子弁当"
+        description: ""
+        price : "530円"
+
+      - title: "焼肉弁当"
+        description: ""
+        price : "550円"
+
+      - title: "ハンバーグ弁当"
+        description: ""
+        price : "550円"
+
+      - title: "幕の内弁当"
+        description: ""
+        price : "756円"
+
+      - title: "特製幕の内弁当"
+        description: ""
+        price : "864円"
 
 ################### Subscription ################
 subscription:

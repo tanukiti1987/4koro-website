@@ -281,6 +281,16 @@ px      68    160    252    */
   #price .block .pricing-list ul li .item {
     float: none;
   }
+
+  #price .block .pricing-list ul li {
+    width: 100%;
+    float: none;
+  }
+
+  #price .block .pricing-list ul li:nth-child(2n+1) {
+    padding: 0;
+  }
+
   #price .block .pricing-list ul li .item .item-title .border-bottom {
     display: none;
   }
