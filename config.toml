@@ -48,19 +48,19 @@ paginate = 4
   weight = 1
 
   [[menu.main]]
-  name = "メッセージ"
+  name = "コロッケ屋さんについて"
   URL = "about-us"
   weight = 2
 
-  [[menu.main]]
-  name = "Blog"
-  URL = "blog"
-  weight = 3
+#  [[menu.main]]
+#  name = "Blog"
+#  URL = "blog"
+#  weight = 3
 
   [[menu.main]]
   name = "メニュー"
   URL = "price"
-  weight = 4
+  weight = 3
 
 #  [[menu.main]]
 #  name = "News"
@@ -70,8 +70,7 @@ paginate = 4
   [[menu.main]]
   name = "営業時間・連絡先"
   URL = "footer"
-  weight = 5
-
+  weight = 4
 
 #################### default parameters ################################
 [params]
@@ -82,7 +81,7 @@ description = "This is meta description"
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # copyright
-copyright = "Copyright 2020 - All Rights Reserved. Design and Developed By Themefisher.com"
+copyright = "Copyright 2020 - 4丁目のコロッケ屋さん All Rights Reserved. Design and Developed By Themefisher.com"
 
 # Preloader
 [params.preloader]
@@ -92,8 +91,8 @@ preloader = "" # use .png , .svg or .gif format
 ################################### Footer ############################
 [params.footer]
 enable = true
-contactInfoTitle = "営業時間 <span>・</span> 連絡先"
-blogTitle = "LATEST <span>BLOG POSTS</span>"
+contactInfoTitle = "営業時間"
+# blogTitle = "LATEST <span>BLOG POSTS</span>"
 # galleryTitle = "PHOTO <span>STREAM</span>"
 # socialTitle = "Follow <span>US</span>"
 
@@ -108,15 +107,15 @@ title="定休日"
 icon = "fa fa-bell-slash"
 content = "毎週月曜日、毎月第3火曜日"
 
-[[params.footer.contactItem]]
-title="電話番号"
-icon = "fa fa-phone"
-content = "0285-45-0607"
+# [[params.footer.contactItem]]
+# title="電話番号"
+# icon = "fa fa-phone"
+# content = "0285-45-0607"
 
-[[params.footer.contactItem]]
-title="住所"
-icon = "fa fa-map-marker"
-content = "栃木県小山市大字間々田１６５１−６"
+# [[params.footer.contactItem]]
+# title="住所"
+# icon = "fa fa-map-marker"
+# content = "栃木県小山市大字間々田１６５１−６"
 
 #[[params.footer.contactItem]]
 # title="E mail"

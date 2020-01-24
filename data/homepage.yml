@@ -7,7 +7,7 @@ heroArea:
 
 ################### Gallery ###################
 gallery:
-  enable : true
+  enable : false
   sliderItem:
     - image : "images/slider/slider-img-1.jpg"
     - image : "images/slider/slider-img-2.jpg"
@@ -27,7 +27,7 @@ about:
 
 ################# Blog ######################
 blog:
-  enable : true
+  enable : false
   title : "Our Latest <span>Blog</span>"
   bgImage : "images/blog/blog-bg.jpg"
   overlay:
