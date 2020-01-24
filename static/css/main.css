@@ -186,6 +186,7 @@ a:active {
 .navigation {
   position: sticky;
   top: 85px;
+  background-color: #F6F6F6;
 }
 
 nav {
