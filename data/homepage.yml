@@ -22,8 +22,8 @@ gallery:
 about:
   enable : true
   image : "images/cooker-img.png"
-  title : "Featured Your <span> Restaurant’s</span> Website Has To Look Good"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </br>voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat Ut enim ad minim veniam"
+  title : "1964年創業 - 手作りにこだわった、おいしいお惣菜・お弁当をお届けしています"
+  description : "お客様にご注文をいただいてから作っているため、揚げたてのお惣菜・作りたてのお弁当をお届けできます。また、味だけでなく価格もお手頃になるよう日々工夫をしております。"
 
 ################# Blog ######################
 blog:
@@ -40,81 +40,81 @@ pricing:
   title : "お惣菜・お弁当のご案内"
   description: "すべて手作りのお惣菜・お弁当。お昼に、夕食に食べていただきやすいよう、種類も価格も充実させています。価格はすべて税込みです。"
   sections:
-    - sectionName: "おすすめのお惣菜"
+    - sectionName: "お惣菜"
       pricingItem:
       - title: "コロッケ"
-        description: ""
+        description: "ソースなしでもおいしい"
         price : "70円"
 
       - title: "メンチ"
-        description: ""
+        description: "豚肉100%でジュワッ"
         price : "90円"
 
       - title: "ハムカツ"
-        description: ""
+        description: "昭和の赤ハム"
         price : "70円"
 
       - title: "ポテトフライ（3個）"
-        description: ""
+        description: "栃木の名物！"
         price : "70円"
 
       - title: "アジフライ"
-        description: ""
+        description: "骨なし三枚おろしで安心"
         price : "108円"
 
       - title: "イカフライ（3個）"
-        description: ""
+        description: "一口大のやわらかいイカを使用"
         price : "130円"
 
       - title: "海老フライ"
-        description: ""
+        description: "ブラックタイガーを使用"
         price : "130円"
 
       - title: "串カツ"
-        description: ""
+        description: "やわらかい赤身肉と玉ねぎ"
         price : "108円"
 
       - title: "チキンカツ"
-        description: ""
+        description: "国産鶏ももを皮なしでヘルシーに"
         price : "324円"
 
       - title: "とんかつ（ロース）"
-        description: ""
+        description: "味のあるロース肉です"
         price : "280円"
 
       - title: "上とんかつ（ロース）"
-        description: ""
+        description: "リブロースを使用"
         price : "389円"
 
       - title: "ヒレカツ"
-        description: ""
+        description: "脂身が少なく、柔らかいお肉"
         price : "432円"
 
       - title: "ひれ一口カツ（1個）"
-        description: ""
+        description: "ヒレカツを更に食べやすく"
         price : "108円"
 
       - title: "若鶏唐揚げ 100g"
-        description: ""
+        description: "100gで3〜4個で一人前の量"
         price : "176円"
 
       - title: "焼豚 100g"
-        description: ""
+        description: "お酒のおつまみにカラシをつけて"
         price : "198円"
 
       - title: "チキンロール 100g"
-        description: ""
+        description: "照り焼き風"
         price : "168円"
 
       - title: "生餃子 10個入り"
-        description: ""
+        description: "にんにくたっぷりで手作り"
         price : "270円"
 
       - title: "焼き餃子 10個入り"
-        description: ""
+        description: "焼いたものを持ち帰れます"
         price : "330円"
 
-    - sectionName: "おすすめのお弁当"
+    - sectionName: "お弁当"
       pricingItem:
       - title: "コロッケ弁当"
         description: ""
@@ -149,11 +149,11 @@ pricing:
         price : "520円"
 
       - title: "スペシャル弁当"
-        description: ""
+        description: "コロッケ・海老フライ・ひれ一口カツ"
         price : "650円"
 
       - title: "海鮮ミックス弁当"
-        description: ""
+        description: "アジフライ・海老フライ・イカフライ"
         price : "550円"
 
       - title: "アジフライ弁当"
@@ -189,7 +189,7 @@ pricing:
         price : "530円"
 
       - title: "焼肉弁当"
-        description: ""
+        description: "豚ロースを使用"
         price : "550円"
 
       - title: "ハンバーグ弁当"
@@ -197,11 +197,11 @@ pricing:
         price : "550円"
 
       - title: "幕の内弁当"
-        description: ""
+        description: "アジフライ・ひれ一口カツ・焼鮭・焼肉"
         price : "756円"
 
       - title: "特製幕の内弁当"
-        description: ""
+        description: "海老フライ・アジフライ・ひれ一口カツ・焼鮭・焼肉"
         price : "864円"
 
 ################### Subscription ################
