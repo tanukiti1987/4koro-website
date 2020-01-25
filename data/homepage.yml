@@ -117,11 +117,11 @@ pricing:
     - sectionName: "お弁当"
       pricingItem:
       - title: "コロッケ弁当"
-        description: ""
+        description: "シャケ入り"
         price : "500円"
 
       - title: "メンチ弁当"
-        description: ""
+        description: "シャケ入り"
         price : "520円"
 
       - title: "コロ・ハム弁当"
@@ -145,7 +145,7 @@ pricing:
         price : "475円"
 
       - title: "からあげ弁当"
-        description: ""
+        description: "シャケ入り"
         price : "520円"
 
       - title: "スペシャル弁当"
@@ -157,19 +157,19 @@ pricing:
         price : "550円"
 
       - title: "アジフライ弁当"
-        description: ""
+        description: "シャケ入り"
         price : "540円"
 
       - title: "イカフライ弁当"
-        description: ""
+        description: "シャケ入り"
         price : "550円"
 
       - title: "海老フライ弁当"
-        description: ""
+        description: "シャケ入り"
         price : "680円"
 
       - title: "ヒレかつ弁当"
-        description: ""
+        description: "シャケ入り"
         price : "650円"
 
       - title: "とんかつ弁当"
@@ -197,11 +197,11 @@ pricing:
         price : "550円"
 
       - title: "幕の内弁当"
-        description: "アジフライ・ひれ一口カツ・焼鮭・焼肉"
+        description: "アジフライ・ひれ一口カツ・焼肉・シャケ入り"
         price : "756円"
 
       - title: "特製幕の内弁当"
-        description: "海老フライ・アジフライ・ひれ一口カツ・焼鮭・焼肉"
+        description: "海老フライ・アジフライ・ひれ一口カツ・焼肉・シャケ入り"
         price : "864円"
 
 ################### Subscription ################
