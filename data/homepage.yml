@@ -124,11 +124,11 @@ pricing:
         description: "シャケ入り"
         price : "520円"
 
-      - title: "コロ・ハム弁当"
+      - title: "コロッケ・ハムカツ弁当"
         description: ""
         price : "464円"
 
-      - title: "コロ・アジ弁当"
+      - title: "コロッケ・アジフライ弁当"
         description: ""
         price : "453円"
 
@@ -136,11 +136,11 @@ pricing:
         description: ""
         price : "485円"
 
-      - title: "メン・ハム弁当"
+      - title: "メンチ・ハムカツ弁当"
         description: ""
         price : "485円"
 
-      - title: "メン・アジ弁当"
+      - title: "メンチ・アジフライ弁当"
         description: ""
         price : "475円"
 
