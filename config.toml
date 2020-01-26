@@ -74,7 +74,7 @@ paginate = 4
 
 #################### default parameters ################################
 [params]
-logo = "images/4koro_logo.png"
+logo = "images/logo.png"
 # meta data
 author = "4丁目のコロッケ屋さん"
 description = "This is meta description"

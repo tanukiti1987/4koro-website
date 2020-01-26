@@ -209,7 +209,7 @@ nav .block .navbar-default {
 }
 
 nav .block .navbar-default .navbar-brand {
-  padding-left: 0px;
+  padding: 0;
 }
 
 nav .block .navbar-default .navbar-nav {
