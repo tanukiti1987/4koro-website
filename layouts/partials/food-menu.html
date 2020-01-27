@@ -5,8 +5,8 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h1 class="heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">{{ .title | markdownify }}</h1>
-                    <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">{{ .description | markdownify }}</p>
+                    <h1 class="heading wow fadeInUp" data-wow-duration="0ms" data-wow-delay="0ms">{{ .title | markdownify }}</h1>
+                    <p class="wow fadeInUp" data-wow-duration="0ms" data-wow-delay="10ms">{{ .description | markdownify }}</p>
                     {{ range .sections }}
                     <div class="pricing-list">
                         <div class="title">
@@ -14,7 +14,7 @@
                         </div>
                         <ul>
                             {{ range .pricingItem }}
-                            <li class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                            <li class="wow fadeInUp" data-wow-duration="0ms" data-wow-delay="0ms">
                                 <div class="item">
                                     <div class="item-title">
                                         <h2>{{.title}}</h2>
@@ -31,6 +31,20 @@
                 </div>
             </div><!-- .col-md-12 close -->
         </div><!-- .row close -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <p class="note">
+                        その他、パーティーオードブル 2,160円・2,700円・3,240円
+                        <br/>
+                        各種仕出しも承ります。
+                        <br/>
+                        ご要望あれば、まずはご相談ください。
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div><!-- .containe close -->
 </section><!-- #price close -->
 {{end}}
