@@ -1,7 +1,7 @@
 ######################## default configuration ####################
 baseURL = "https://www.4koro.dev/"
 languageCode = "en-us"
-title = "手作り揚げたての揚げ物とお弁当のお店 - 4丁目のコロッケ屋さん"
+title = "手作り/作りたての揚げ物とお弁当のお店 - 4丁目のコロッケ屋さん"
 theme="restaurant-hugo"
 summaryLength = "7"
 paginate = 4
@@ -77,7 +77,7 @@ paginate = 4
 logo = "images/logo.png"
 # meta data
 author = "4丁目のコロッケ屋さん"
-description = "This is meta description"
+description = "4丁目のコロッケ屋さんでは、お惣菜やお弁当は注文いただいてから作るため、作りたての美味しさをお届けできます。創業1964年、昔ながらの味を守りながら、地域に密着したおいしいお惣菜・お弁当をどうぞお召し上がりください。"
 # google analitycs ID
 google_analitycs_id = "Your ID"
 # copyright
