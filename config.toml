@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://www.4koro.dev/"
+baseURL = "https://www.4koro.page/"
 languageCode = "en-us"
 title = "手作り/作りたての揚げ物とお弁当のお店 - 4丁目のコロッケ屋さん"
 theme="restaurant-hugo"
