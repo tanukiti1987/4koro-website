@@ -79,7 +79,7 @@ logo = "images/logo.png"
 author = "4丁目のコロッケ屋さん"
 description = "4丁目のコロッケ屋さんでは、お惣菜やお弁当は注文いただいてから作るため、作りたての美味しさをお届けできます。創業1964年、昔ながらの味を守りながら、地域に密着したおいしいお惣菜・お弁当をどうぞお召し上がりください。"
 # google analitycs ID
-google_analitycs_id = "Your ID"
+google_analitycs_id = "UA-27693816-6"
 # copyright
 copyright = "Copyright 2020 - 4丁目のコロッケ屋さん All Rights Reserved. Design and Developed By Themefisher.com"
 
