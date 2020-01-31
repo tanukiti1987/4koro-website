@@ -304,6 +304,11 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   padding: 40px 0px;
 }
 
+#about-us .block .cooker-img {
+  width: 155px;
+  border-radius: 80px;
+}
+
 /*--
     blog Start
 --*/
