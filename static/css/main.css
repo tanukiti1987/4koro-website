@@ -497,12 +497,6 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   margin-right: auto;
 }
 
-
-
-
-
-
-
 /*--
     price Start
 --*/
@@ -516,6 +510,15 @@ nav .block .navbar-default .navbar-nav>.active>a:hover:before {
   line-height: 26px;
   padding: 40px 133px 0;
   text-align: center;
+}
+
+#price .block .pickup {
+  color: #333333;
+  font-size: 20px;
+}
+
+#price .block .pickup .sale_range {
+  text-decoration: underline;
 }
 
 #price .block .pricing-list {
