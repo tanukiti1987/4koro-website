@@ -101,7 +101,7 @@ contactInfoTitle = "営業時間"
 [[params.footer.contactItem]]
 title="営業時間"
 icon = "fa fa-briefcase"
-content = "10:00 ~ 19:00 （売り切れ次第終了）"
+content = "10:00 ~ 13:30 <br /> 16:00 ~ 18:30 <br /> （売り切れ次第終了）"
 
 [[params.footer.contactItem]]
 title="定休日"
@@ -158,3 +158,8 @@ content = "毎週月曜日、毎月第3火曜日"
 # [[params.footer.socialLink]]
 # icon = "instagram"
 # link = "https://fb.com/themefisher"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
