@@ -23,11 +23,11 @@ about:
   enable : true
   image : "images/cooker-img.png"
   title : |
-    1964年創業  
+    1964年創業
     手作り/作りたてを徹底した、おいしいお惣菜・お弁当を販売しています
 
   description : |
-    お客様にご注文をいただいてからお惣菜やお弁当を作っているため、他のお店にはない、できたての美味しさを十分に味わうことができます。  
+    お客様にご注文をいただいてからお惣菜やお弁当を作っているため、他のお店にはない、できたての美味しさを十分に味わうことができます。
     また、味だけでなく価格もお手頃になるよう日々工夫をしております。
 
 ################# Blog ######################
@@ -44,26 +44,26 @@ pricing:
   enable : true
   title : "お惣菜・お弁当のご案内"
   description: |
-    すべて手作り/作りたてのお惣菜・お弁当。お昼に、夕食に食べていただきやすいよう、種類も価格も充実させています。  
+    すべて手作り/作りたてのお惣菜・お弁当。お昼に、夕食に食べていただきやすいよう、種類も価格も充実させています。
     価格はすべて税込みです。
   sections:
     - sectionName: "お惣菜"
       pricingItem:
       - title: "コロッケ"
         description: "ソースなしでもおいしい"
-        price : "70円"
+        price : "75円"
 
-      - title: "メンチ"
+      - title: "メンチカツ"
         description: "豚肉100%でジュワッ"
-        price : "90円"
+        price : "95円"
 
       - title: "ハムカツ"
         description: "昭和の赤ハム"
-        price : "70円"
+        price : "75円"
 
       - title: "ポテトフライ（3個）"
         description: "栃木の名物！"
-        price : "70円"
+        price : "75円"
 
       - title: "アジフライ"
         description: "骨なし三枚おろしで安心"
@@ -75,23 +75,23 @@ pricing:
 
       - title: "海老フライ"
         description: "ブラックタイガーを使用"
-        price : "130円"
+        price : "140円"
 
       - title: "串カツ"
         description: "やわらかい赤身肉と玉ねぎ"
-        price : "108円"
+        price : "120円"
 
       - title: "チキンカツ"
         description: "国産鶏ももを皮なしでヘルシーに"
-        price : "324円"
+        price : "330円"
 
       - title: "とんかつ（ロース）"
         description: "味のあるロース肉です"
-        price : "280円"
+        price : "300円"
 
       - title: "上とんかつ（ロース）"
         description: "リブロースを使用"
-        price : "389円"
+        price : "400円"
 
       - title: "ヒレカツ"
         description: "脂身が少なく、柔らかいお肉"
@@ -103,9 +103,9 @@ pricing:
 
       - title: "若鶏唐揚げ 100g"
         description: "100gで3〜4個で一人前の量"
-        price : "176円"
+        price : "180円"
 
-      - title: "焼豚 100g"
+      - title: "焼き豚 100g"
         description: "お酒のおつまみにカラシをつけて"
         price : "198円"
 
@@ -133,27 +133,35 @@ pricing:
 
       - title: "コロッケ・ハムカツ弁当"
         description: ""
-        price : "464円"
+        price : "475円"
 
       - title: "コロッケ・アジフライ弁当"
         description: ""
-        price : "453円"
+        price : "464円"
+
+      - title: "コロッケ・唐揚げ弁当"
+        description: ""
+        price : "500円"
 
       - title: "メンチ・コロッケ弁当"
         description: ""
-        price : "485円"
+        price : "497円"
 
       - title: "メンチ・ハムカツ弁当"
         description: ""
-        price : "485円"
+        price : "497円"
 
       - title: "メンチ・アジフライ弁当"
         description: ""
-        price : "475円"
+        price : "486円"
+
+      - title: "メンチ・唐揚げ弁当"
+        description: ""
+        price : "520円"
 
       - title: "からあげ弁当"
         description: "シャケ入り"
-        price : "520円"
+        price : "530円"
 
       - title: "スペシャル弁当"
         description: "コロッケ・海老フライ・ひれ一口カツ"
@@ -161,7 +169,7 @@ pricing:
 
       - title: "海鮮ミックス弁当"
         description: "アジフライ・海老フライ・イカフライ"
-        price : "550円"
+        price : "560円"
 
       - title: "アジフライ弁当"
         description: "シャケ入り"
@@ -170,6 +178,10 @@ pricing:
       - title: "イカフライ弁当"
         description: "シャケ入り"
         price : "550円"
+
+      - title: "イカ・ハム弁当"
+        description: ""
+        price : "530円"
 
       - title: "海老フライ弁当"
         description: "シャケ入り"
@@ -181,11 +193,11 @@ pricing:
 
       - title: "とんかつ弁当"
         description: ""
-        price : "605円"
+        price : "630円"
 
       - title: "かつ丼"
         description: ""
-        price : "540円"
+        price : "560円"
 
       - title: "ヒレかつ丼"
         description: ""
@@ -203,13 +215,17 @@ pricing:
         description: ""
         price : "550円"
 
+      - title: "ハンバーグ・エビフライ弁当"
+        description: ""
+        price : "680円"
+
       - title: "幕の内弁当"
         description: "アジフライ・ひれ一口カツ・焼肉・シャケ入り"
         price : "756円"
 
       - title: "特製幕の内弁当"
         description: "海老フライ・アジフライ・ひれ一口カツ・焼肉・シャケ入り"
-        price : "864円"
+        price : "880円"
 
 ################### Subscription ################
 subscription:
