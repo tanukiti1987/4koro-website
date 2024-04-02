@@ -45,212 +45,219 @@ pricing:
   title : "お惣菜・お弁当のご案内"
   description: |
     すべて手作り/作りたてのお惣菜・お弁当。お昼に、夕食に食べていただきやすいよう、種類も価格も充実させています。
-    カッコ内は税抜き価格です。
 
   sections:
     - sectionName: "お惣菜"
       pricingItem:
       - title: "コロッケ"
         description: "ソースなしでもおいしい"
-        price : "85円(79円)"
+        price : "90円"
 
       - title: "メンチカツ"
         description: "豚肉100%でジュワッ"
-        price : "110円(102円)"
+        price : "120円"
 
       - title: "ハムカツ"
         description: "昭和の赤ハム"
-        price : "80円(74円)"
+        price : "85円"
 
       - title: "ポテトフライ（3個）"
         description: "栃木の名物！"
-        price : "80円(74円)"
+        price : "85円"
 
       - title: "アジフライ"
         description: "骨なし三枚おろしで安心"
-        price : "130円(120円)"
+        price : "140円"
 
       - title: "イカフライ（3個）"
         description: "一口大のやわらかいイカを使用"
-        price : "130円(120円)"
+        price : "140円"
 
       - title: "海老フライ"
         description: "ブラックタイガーを使用"
-        price : "160円(148円)"
+        price : "170円"
 
       - title: "串カツ"
         description: "やわらかい赤身肉と玉ねぎ"
-        price : "140円(130円)"
+        price : "140円"
 
       - title: "チキンカツ"
         description: "国産鶏ももを皮なしでヘルシーに"
-        price : "360円(333円)"
+        price : "380円"
 
       - title: "鮭フライ"
         description: ""
-        price : "160円(148円)"
+        price : "170円"
 
       - title: "とんかつ（ロース）"
         description: "味のあるロース肉です"
-        price : "350円(324円)"
+        price : "360円"
 
       - title: "上とんかつ（ロース）"
         description: "リブロースを使用"
-        price : "450円(417円)"
+        price : "470円"
 
       - title: "ヒレカツ"
         description: "脂身が少なく、柔らかいお肉"
-        price : "470円(435円)"
+        price : "490円"
 
       - title: "ひれ一口カツ（1個）"
         description: "ヒレカツを更に食べやすく"
-        price : "130円(120円)"
+        price : "140円"
 
       - title: "若鶏唐揚げ 100g"
         description: "100gで3〜4個で一人前の量"
-        price : "188円(174円)"
+        price : "188円"
 
       - title: "焼き豚 100g"
         description: "お酒のおつまみにカラシをつけて"
-        price : "230円(213円)"
+        price : "238円"
 
       - title: "チキンロール 100g"
         description: "照り焼き風"
-        price : "188円(174円)"
+        price : "198円"
 
       - title: "生餃子 10個入り"
         description: "にんにくたっぷりで手作り"
-        price : "300円(278円)"
+        price : "330円"
 
       - title: "焼き餃子 10個入り"
         description: "焼いたものを持ち帰れます"
-        price : "360円(333円)"
+        price : "390円"
+
+      - title: "焼き肉 1人前"
+        description: ""
+        price : "320円"
+
+      - title: "焼シャケ"
+        description: ""
+        price : "140円"
 
     - sectionName: "お弁当"
       pricingItem:
       - title: "コロッケ弁当"
         description: "シャケ入り"
-        price : "530円(491円)"
+        price : "550円"
 
       - title: "メンチ弁当"
         description: "シャケ入り"
-        price : "550円(509円)"
+        price : "570円"
 
       - title: "コロッケ・ハムカツ弁当"
         description: ""
-        price : "500円(463円)"
+        price : "520円"
 
       - title: "コロッケ・アジフライ弁当"
         description: ""
-        price : "495円(458円)"
+        price : "515円"
 
       - title: "コロッケ・唐揚げ弁当"
         description: ""
-        price : "530円(491円)"
+        price : "550円"
 
       - title: "メンチ・コロッケ弁当"
         description: ""
-        price : "530円(491円)"
+        price : "550円"
 
       - title: "メンチ・ハムカツ弁当"
         description: ""
-        price : "530円(491円)"
+        price : "550円"
 
       - title: "メンチ・アジフライ弁当"
         description: ""
-        price : "530円(491円)"
+        price : "550円"
 
       - title: "メンチ・唐揚げ弁当"
         description: ""
-        price : "550円(509円)"
+        price : "570円"
 
       - title: "からあげ弁当"
         description: "シャケ入り"
-        price : "550円(509円)"
+        price : "570円"
 
       - title: "ハム・唐揚げ弁当"
         description: ""
-        price : "530円(491円)"
+        price : "550円"
 
       - title: "スペシャル弁当"
         description: "コロッケ・海老フライ・ひれ一口カツ"
-        price : "680円(630円)"
+        price : "700円"
 
       - title: "海鮮ミックス弁当"
         description: "アジフライ・海老フライ・イカフライ"
-        price : "580円(537円)"
+        price : "600円"
 
       - title: "アジフライ弁当"
         description: "シャケ入り"
-        price : "560円(519円)"
+        price : "580円"
 
       - title: "アジ・唐揚げ弁当"
         description: ""
-        price : "560円(519円)"
+        price : "580円"
 
       - title: "イカフライ弁当"
         description: "シャケ入り"
-        price : "560円(519円)"
+        price : "580円"
 
       - title: "イカ・ハム弁当"
         description: ""
-        price : "550円(509円)"
+        price : "570円"
 
       - title: "イカ・唐揚げ弁当"
         description: ""
-        price : "560円(519円)"
+        price : "580円"
 
       - title: "鮭フライ弁当"
         description: ""
-        price : "490円(454円)"
+        price : "515円"
 
       - title: "海老フライ弁当"
         description: "シャケ入り"
-        price : "720円(667円)"
+        price : "740円"
 
       - title: "ヒレかつ弁当"
         description: "シャケ入り"
-        price : "680円(630円)"
+        price : "700円"
 
       - title: "とんかつ弁当"
         description: ""
-        price : "680円(630円)"
+        price : "700円"
 
       - title: "かつ丼"
         description: ""
-        price : "580円(537円)"
+        price : "600円"
 
       - title: "ヒレかつ丼"
         description: ""
-        price : "680円(630円)"
+        price : "700円"
 
       - title: "餃子弁当"
         description: ""
-        price : "550円(509円)"
+        price : "570円"
 
       - title: "焼肉弁当"
         description: "豚ロースを使用"
-        price : "580円(537円)"
+        price : "600円"
 
       - title: "ハンバーグ弁当"
         description: ""
-        price : "580円(537円)"
+        price : "600円"
 
       - title: "ハンバーグ・エビフライ弁当"
         description: ""
-        price : "720円(667円)"
+        price : "740円"
 
       - title: "幕の内弁当"
         description: "アジフライ・ひれ一口カツ・焼肉・シャケ入り"
-        price : "800円(741円)"
+        price : "820円"
 
       - title: "特製幕の内弁当"
         description: "海老フライ・アジフライ・ひれ一口カツ・焼肉・シャケ入り"
-        price : "930円(861円)"
+        price : "950円"
 
       - title: "ライス単品"
-        description: ""
-        price : "180円(167円)"
+        description: "大盛りは +54円"
+        price : "180円"
 
 ################### Subscription ################
 subscription:
