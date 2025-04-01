@@ -1,279 +1,282 @@
 ################## Hero area ##################
 heroArea:
-  enable : true
-  bgImage : "images/header.jpg"
+  enable: true
+  bgImage: "images/header.jpg"
   overlay:
-    enable : true
+    enable: true
 
 ################### Gallery ###################
 gallery:
-  enable : false
+  enable: false
   sliderItem:
-    - image : "images/slider/slider-img-1.jpg"
-    - image : "images/slider/slider-img-2.jpg"
-    - image : "images/slider/slider-img-3.jpg"
-    - image : "images/slider/slider-img-4.jpg"
-    - image : "images/slider/slider-img-1.jpg"
-    - image : "images/slider/slider-img-2.jpg"
-    - image : "images/slider/slider-img-3.jpg"
-    - image : "images/slider/slider-img-4.jpg"
+    - image: "images/slider/slider-img-1.jpg"
+    - image: "images/slider/slider-img-2.jpg"
+    - image: "images/slider/slider-img-3.jpg"
+    - image: "images/slider/slider-img-4.jpg"
+    - image: "images/slider/slider-img-1.jpg"
+    - image: "images/slider/slider-img-2.jpg"
+    - image: "images/slider/slider-img-3.jpg"
+    - image: "images/slider/slider-img-4.jpg"
 
 ################ About #######################
 about:
-  enable : true
-  image : "images/cooker-img.png"
-  title : |
+  enable: true
+  image: "images/cooker-img.png"
+  title: |
     1964年創業
     手作り/作りたてを徹底した、おいしいお惣菜・お弁当を販売しています
 
-  description : |
+  description: |
     お客様にご注文をいただいてからお惣菜やお弁当を作っているため、他のお店にはない、できたての美味しさを十分に味わうことができます。
     また、味だけでなく価格もお手頃になるよう日々工夫をしております。
 
 ################# Blog ######################
 blog:
-  enable : false
-  title : "Our Latest <span>Blog</span>"
-  bgImage : "images/blog/blog-bg.jpg"
+  enable: false
+  title: "Our Latest <span>Blog</span>"
+  bgImage: "images/blog/blog-bg.jpg"
   overlay:
-    enable : true
-
+    enable: true
 
 ################# food Menu ################
 pricing:
-  enable : true
-  title : "お惣菜・お弁当のご案内"
+  enable: true
+  title: "お惣菜・お弁当のご案内"
   description: |
     すべて手作り/作りたてのお惣菜・お弁当。お昼に、夕食に食べていただきやすいよう、種類も価格も充実させています。
 
   sections:
     - sectionName: "お惣菜"
       pricingItem:
-      - title: "コロッケ"
-        description: "ソースなしでもおいしい"
-        price : "90円"
+        - title: "コロッケ"
+          description: "ソースなしでもおいしい"
+          price: "90円"
 
-      - title: "メンチカツ"
-        description: "豚肉100%でジュワッ"
-        price : "120円"
+        - title: "メンチカツ"
+          description: "豚肉100%でジュワッ"
+          price: "120円"
 
-      - title: "ハムカツ"
-        description: "昭和の赤ハム"
-        price : "85円"
+        - title: "ハムカツ"
+          description: "昭和の赤ハム"
+          price: "90円"
 
-      - title: "ポテトフライ（3個）"
-        description: "栃木の名物！"
-        price : "85円"
+        - title: "ポテトフライ（3個）"
+          description: "栃木の名物！"
+          price: "90円"
 
-      - title: "アジフライ"
-        description: "骨なし三枚おろしで安心"
-        price : "140円"
+        - title: "アジフライ"
+          description: "骨なし三枚おろしで安心"
+          price: "140円"
 
-      - title: "イカフライ（3個）"
-        description: "一口大のやわらかいイカを使用"
-        price : "140円"
+        - title: "イカフライ（3個）"
+          description: "一口大のやわらかいイカを使用"
+          price: "150円"
 
-      - title: "海老フライ"
-        description: "ブラックタイガーを使用"
-        price : "170円"
+        - title: "海老フライ"
+          description: "ブラックタイガーを使用"
+          price: "170円"
 
-      - title: "串カツ"
-        description: "やわらかい赤身肉と玉ねぎ"
-        price : "140円"
+        - title: "串カツ"
+          description: "やわらかい赤身肉と玉ねぎ"
+          price: "150円"
 
-      - title: "チキンカツ"
-        description: "国産鶏ももを皮なしでヘルシーに"
-        price : "380円"
+        - title: "チキンカツ"
+          description: "国産鶏ももを皮なしでヘルシーに"
+          price: "400円"
 
-      - title: "鮭フライ"
-        description: ""
-        price : "170円"
+        - title: "鮭フライ"
+          description: ""
+          price: "170円"
 
-      - title: "とんかつ（ロース）"
-        description: "味のあるロース肉です"
-        price : "360円"
+        - title: "とんかつ（ロース）"
+          description: "味のあるロース肉です"
+          price: "370円"
 
-      - title: "上とんかつ（ロース）"
-        description: "リブロースを使用"
-        price : "470円"
+        - title: "上とんかつ（ロース）"
+          description: "リブロースを使用"
+          price: "480円"
 
-      - title: "ヒレカツ"
-        description: "脂身が少なく、柔らかいお肉"
-        price : "490円"
+        - title: "ヒレカツ"
+          description: "脂身が少なく、柔らかいお肉"
+          price: "500円"
 
-      - title: "ひれ一口カツ（1個）"
-        description: "ヒレカツを更に食べやすく"
-        price : "140円"
+        - title: "ひれ一口カツ（1個）"
+          description: "ヒレカツを更に食べやすく"
+          price: "140円"
 
-      - title: "若鶏唐揚げ 100g"
-        description: "100gで3〜4個で一人前の量"
-        price : "188円"
+        - title: "若鶏唐揚げ 100g"
+          description: "100gで3〜4個で一人前の量"
+          price: "198円"
 
-      - title: "焼き豚 100g"
-        description: "お酒のおつまみにカラシをつけて"
-        price : "238円"
+        - title: "焼き豚 100g"
+          description: "お酒のおつまみにカラシをつけて"
+          price: "248円"
 
-      - title: "チキンロール 100g"
-        description: "照り焼き風"
-        price : "198円"
+        - title: "チキンロール 100g"
+          description: "照り焼き風"
+          price: "208円"
 
-      - title: "生餃子 10個入り"
-        description: "にんにくたっぷりで手作り"
-        price : "330円"
+        - title: "生餃子 10個入り"
+          description: "にんにくたっぷりで手作り"
+          price: "350円"
 
-      - title: "焼き餃子 10個入り"
-        description: "焼いたものを持ち帰れます"
-        price : "390円"
+        - title: "焼き餃子 10個入り"
+          description: "焼いたものを持ち帰れます"
+          price: "420円"
 
-      - title: "焼き肉 1人前"
-        description: ""
-        price : "320円"
+        - title: "焼き肉 1人前"
+          description: ""
+          price: "340円"
 
-      - title: "焼シャケ"
-        description: ""
-        price : "140円"
+        - title: "焼シャケ"
+          description: ""
+          price: "140円"
 
     - sectionName: "お弁当"
       pricingItem:
-      - title: "コロッケ弁当"
-        description: "シャケ入り"
-        price : "550円"
+        - title: "コロッケ弁当"
+          description: "シャケ入り"
+          price: "570円"
 
-      - title: "メンチ弁当"
-        description: "シャケ入り"
-        price : "570円"
+        - title: "メンチ弁当"
+          description: "シャケ入り"
+          price: "590円"
 
-      - title: "コロッケ・ハムカツ弁当"
-        description: ""
-        price : "520円"
+        - title: "コロッケ・ハムカツ弁当"
+          description: ""
+          price: "540円"
 
-      - title: "コロッケ・アジフライ弁当"
-        description: ""
-        price : "515円"
+        - title: "コロッケ・アジフライ弁当"
+          description: ""
+          price: "540円"
 
-      - title: "コロッケ・唐揚げ弁当"
-        description: ""
-        price : "550円"
+        - title: "コロッケ・唐揚げ弁当"
+          description: ""
+          price: "570円"
 
-      - title: "メンチ・コロッケ弁当"
-        description: ""
-        price : "550円"
+        - title: "メンチ・コロッケ弁当"
+          description: ""
+          price: "570円"
 
-      - title: "メンチ・ハムカツ弁当"
-        description: ""
-        price : "550円"
+        - title: "メンチ・ハムカツ弁当"
+          description: ""
+          price: "570円"
 
-      - title: "メンチ・アジフライ弁当"
-        description: ""
-        price : "550円"
+        - title: "メンチ・アジフライ弁当"
+          description: ""
+          price: "570円"
 
-      - title: "メンチ・唐揚げ弁当"
-        description: ""
-        price : "570円"
+        - title: "メンチ・唐揚げ弁当"
+          description: ""
+          price: "590円"
 
-      - title: "からあげ弁当"
-        description: "シャケ入り"
-        price : "570円"
+        - title: "からあげ弁当"
+          description: "シャケ入り"
+          price: "590円"
 
-      - title: "ハム・唐揚げ弁当"
-        description: ""
-        price : "550円"
+        - title: "ハム・唐揚げ弁当"
+          description: ""
+          price: "570円"
 
-      - title: "スペシャル弁当"
-        description: "コロッケ・海老フライ・ひれ一口カツ"
-        price : "700円"
+        - title: "スペシャル弁当"
+          description: "コロッケ・海老フライ・ひれ一口カツ"
+          price: "720円"
 
-      - title: "海鮮ミックス弁当"
-        description: "アジフライ・海老フライ・イカフライ"
-        price : "600円"
+        - title: "海鮮ミックス弁当"
+          description: "アジフライ・海老フライ・イカフライ"
+          price: "630円"
 
-      - title: "アジフライ弁当"
-        description: "シャケ入り"
-        price : "580円"
+        - title: "アジフライ弁当"
+          description: "シャケ入り"
+          price: "600円"
 
-      - title: "アジ・唐揚げ弁当"
-        description: ""
-        price : "580円"
+        - title: "アジ・唐揚げ弁当"
+          description: ""
+          price: "600円"
 
-      - title: "イカフライ弁当"
-        description: "シャケ入り"
-        price : "580円"
+        - title: "イカフライ弁当"
+          description: "シャケ入り"
+          price: "600円"
 
-      - title: "イカ・ハム弁当"
-        description: ""
-        price : "570円"
+        - title: "イカ・ハム弁当"
+          description: ""
+          price: "600円"
 
-      - title: "イカ・唐揚げ弁当"
-        description: ""
-        price : "580円"
+        - title: "イカ・唐揚げ弁当"
+          description: ""
+          price: "600円"
 
-      - title: "鮭フライ弁当"
-        description: ""
-        price : "515円"
+        - title: "鮭フライ弁当"
+          description: ""
+          price: "540円"
 
-      - title: "海老フライ弁当"
-        description: "シャケ入り"
-        price : "740円"
+        - title: "海老フライ弁当"
+          description: "シャケ入り"
+          price: "760円"
 
-      - title: "ヒレかつ弁当"
-        description: "シャケ入り"
-        price : "700円"
+        - title: "ヒレかつ弁当"
+          description: "シャケ入り"
+          price: "720円"
 
-      - title: "とんかつ弁当"
-        description: ""
-        price : "700円"
+        - title: "とんかつ弁当"
+          description: ""
+          price: "720円"
 
-      - title: "かつ丼"
-        description: ""
-        price : "600円"
+        - title: "かつ丼"
+          description: ""
+          price: "630円"
 
-      - title: "ヒレかつ丼"
-        description: ""
-        price : "700円"
+        - title: "ヒレかつ丼"
+          description: ""
+          price: "730円"
 
-      - title: "餃子弁当"
-        description: ""
-        price : "570円"
+        - title: "餃子弁当"
+          description: ""
+          price: "590円"
 
-      - title: "焼肉弁当"
-        description: "豚ロースを使用"
-        price : "600円"
+        - title: "焼肉弁当"
+          description: "豚ロースを使用"
+          price: "630円"
 
-      - title: "ハンバーグ弁当"
-        description: ""
-        price : "600円"
+        - title: "ハンバーグ弁当"
+          description: ""
+          price: "630円"
 
-      - title: "ハンバーグ・エビフライ弁当"
-        description: ""
-        price : "740円"
+        - title: "ハンバーグ・エビフライ弁当"
+          description: ""
+          price: "770円"
 
-      - title: "幕の内弁当"
-        description: "アジフライ・ひれ一口カツ・焼肉・シャケ入り"
-        price : "820円"
+        - title: "幕の内弁当"
+          description: "アジフライ・ひれ一口カツ・焼肉・シャケ入り"
+          price: "840円"
 
-      - title: "特製幕の内弁当"
-        description: "海老フライ・アジフライ・ひれ一口カツ・焼肉・シャケ入り"
-        price : "950円"
+        - title: "特製幕の内弁当"
+          description: "海老フライ・アジフライ・ひれ一口カツ・焼肉・シャケ入り"
+          price: "970円"
 
-      - title: "ライス単品"
-        description: "大盛りは +54円"
-        price : "180円"
+        - title: "ライス単品"
+          description: ""
+          price: "190円"
+
+        - title: "ライス大盛り"
+          description: ""
+          price: "+54円"
 
 ################### Subscription ################
 subscription:
-  enable : false
-  bgImage : "images/subscribe-bg.jpg"
-  title : "SUBSCRIBE to our <span>NEWSLETTER</span>"
-  description : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
+  enable: false
+  bgImage: "images/subscribe-bg.jpg"
+  title: "SUBSCRIBE to our <span>NEWSLETTER</span>"
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"
   #Mailchimp subscription configaration
-  formAction : "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
-  formName : "b_f95ece2732a6e9925f2e70a61_b1e227529e"
+  formAction: "https://themefisher.us9.list-manage.com/subscribe/post?u=f95ece2732a6e9925f2e70a61&amp;id=b1e227529e"
+  formName: "b_f95ece2732a6e9925f2e70a61_b1e227529e"
   overlay:
-    enable : true
+    enable: true
 
 ################ Contact #######################
 contact:
-  enable : false
+  enable: false
   title: "Let's <span> Contact Us </span>"
   subtitle: "SIGN UP FOR EMAIL ALERTS"
-  formAction : "#" #contact form works with formspree.io
+  formAction: "#" #contact form works with formspree.io
