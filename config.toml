@@ -5,7 +5,7 @@ title = "手作り/作りたての揚げ物とお弁当のお店 - 4丁目のコ
 theme="restaurant-hugo"
 summaryLength = "7"
 pagination = { pagerSize = 4 }
-disableKinds = ["taxonomy", "taxonomyterm"]
+disableKinds = ["taxonomy", "term"]
 
 ############################# Plugins ##############################
 [params.plugins]
