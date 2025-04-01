@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    {{ partial "head.html" . }}
+    <body id="body">
+        {{ partial "header.html" . }}
+        {{ partial "hero-area.html" . }}
+        {{ partial "about.html" . }}
+        {{ partial "food-menu.html" . }}
+        {{ partial "footer.html" . }}
+
+        {{ range .Site.Params.plugins.js }}
+        <script src="{{ .URL | absURL }}"></script>
+        {{ end }}
+    </body>
+</html>
