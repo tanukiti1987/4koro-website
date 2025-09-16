@@ -18,4 +18,27 @@
   <link rel="icon" href="{{ "images/icon-192x192.png" | absURL }} " type="image/x-icon">
   <link rel="apple-touch-icon" type="image/png" href="images/apple-touch-icon-180x180.png">
   <link rel="canonical" href="{{ .Site.BaseURL }}">
+
+  {{ "<!-- Structured Data (JSON-LD) -->" | safeHTML }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "4丁目のコロッケ屋さん",
+    "description": "間々田・小山のテイクアウト弁当・お惣菜専門店",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "大字間々田1651-6",
+      "addressLocality": "小山市",
+      "addressRegion": "栃木県",
+      "postalCode": "329-0211",
+      "addressCountry": "JP"
+    },
+    "telephone": "0285-45-0607",
+    "servesCuisine": "和食",
+    "priceRange": "¥",
+    "openingHours": "Tu-Su 10:00-13:30,16:00-18:30",
+    "url": "{{ .Site.BaseURL }}"
+  }
+  </script>
 </head>
