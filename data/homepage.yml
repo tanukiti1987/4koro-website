@@ -262,6 +262,10 @@ pricing:
           description: ""
           price: "+70円"
 
+        - title: "弁当おかずのみ"
+          description: ""
+          price: "-130円"
+
 ################### Subscription ################
 subscription:
   enable: false
