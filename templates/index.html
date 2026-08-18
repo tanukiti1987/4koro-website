@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="{{ site.language_code }}">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="{{ site.description }}">
+  <meta name="author" content="{{ site.author }}">
+
+  <!-- plugins -->
+  {% for css in css_plugins %}
+  <link rel="stylesheet" href="/{{ css }}">
+  {% endfor %}
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/images/icon-192x192.png" type="image/x-icon">
+  <link rel="icon" href="/images/icon-192x192.png" type="image/x-icon">
+  <link rel="apple-touch-icon" type="image/png" href="/images/apple-touch-icon-180x180.png">
+  <link rel="canonical" href="{{ site.base_url }}">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+{{ structured_data | safe }}
+  </script>
+</head>
+
+<body id="body">
+  <!-- Navigation Start -->
+  <nav class="navigation">
+    <div class="container">
+      <div class="block">
+        <nav class="navbar navbar-default">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!-- logo -->
+              <a class="navbar-brand" href="/">
+                <img class="img-responsive" src="/{{ site.logo }}" alt="{{ site.author }}">
+              </a>
+              <!-- logo -->
+            </div>
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right" id="top-nav">
+                {% for item in site.navigation %}
+                <li><a href="#{{ item.anchor }}">{{ item.label }}</a></li>
+                {% endfor %}
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div><!-- .container close -->
+  </nav><!-- header close -->
+
+  <!-- header-img start -->
+  <section id="hero-area" class="overlay">
+    <img class="img-responsive" src="/{{ content.hero.image }}" alt="{{ content.hero.alt }}">
+  </section>
+
+  <section id="about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <img class="cooker-img img-responsive mx-auto" src="/{{ content.about.image }}" alt="{{ site.author }}"/>
+            <h1 class="heading wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">{{ content.about.title | nl2br }}</h1>
+            <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="600ms">{{ content.about.description | nl2br }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="price">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+            <h1 class="heading wow fadeInUp" data-wow-duration="0ms" data-wow-delay="0ms">{{ content.pricing.title }}</h1>
+            <p class="wow fadeInUp" data-wow-duration="0ms" data-wow-delay="10ms">{{ content.pricing.description }}</p>
+            <p class="menu-pdf-link">
+              <a href="/menu.pdf" target="_blank" rel="noopener">
+                印刷用ページを見る
+              </a>
+            </p>
+
+            {% for section in menu_sections %}
+            <div class="pricing-list">
+              <div class="title">
+                <h3>{{ section.label }}</h3>
+              </div>
+              <ul>
+                {% for item in products_by_section[section.id] %}
+                <li class="wow fadeInUp" data-wow-duration="0ms" data-wow-delay="0ms">
+                  <div class="item">
+                    <div class="item-title">
+                      <h2>{{ item.name }}</h2>
+                      <div class="border-bottom"></div>
+                      <span>{{ item.price_label }}</span>
+                    </div>
+                    <p>{{ item.description }}</p>
+                  </div>
+                </li>
+                {% endfor %}
+              </ul>
+            </div>
+            {% endfor %}
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="block">
+                  <p class="note">{{ content.pricing.note | nl2br }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- .col-md-12 close -->
+      </div><!-- .row close -->
+    </div><!-- .container close -->
+  </section><!-- #price close -->
+
+  <section id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <div class="block wow fadeInLeft" data-wow-delay="200ms">
+            <h3>営業時間</h3>
+            <div class="info">
+              <ul>
+                <li>
+                  <h4><i class="fa fa-briefcase"></i>営業時間</h4>
+                  <p>{{ hours_display[0] }}<br />{{ hours_display[1] }}<br />（{{ site.sold_out_notice }}）</p>
+                </li>
+                <li>
+                  <h4><i class="fa fa-bell-slash"></i>定休日</h4>
+                  <p>{{ site.closed_days }}</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- .col-md-6 close -->
+        <div class="col-md-6 col-sm-6">
+          <div class="block wow fadeInLeft" data-wow-delay="200ms">
+            <h3>連絡先</h3>
+            <div class="info">
+              <ul>
+                <li>
+                  <h4><i class="fa fa-phone"></i>電話番号</h4>
+                  <p><a href="{{ site.phone.href }}" class="link">{{ site.phone.display }}</a></p>
+                </li>
+                <li>
+                  <h4><i class="fa fa-map-marker"></i>住所</h4>
+                  <p><a href="{{ site.map_url }}" target="_blank" rel="noopener" class="link">{{ site.address.display }}</a></p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div><!-- .col-md-12 close -->
+      </div><!-- .row close -->
+    </div><!-- .container close -->
+  </section><!-- #footer close -->
+
+  <footer id="footer-bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="block">
+            <p>{{ site.copyright }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS Plugins (loaded once) -->
+  {% for js in js_plugins %}
+  <script src="/{{ js }}"></script>
+  {% endfor %}
+
+  <!-- Google Analytics -->
+  {% if site.google_analytics_id %}
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', '{{ site.google_analytics_id }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
+</html>

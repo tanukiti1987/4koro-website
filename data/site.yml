@@ -1,0 +1,491 @@
+site:
+  base_url: "https://www.4koro.page/"
+  language_code: "en-us"
+  title: "手作り/作りたての揚げ物とお弁当のお店 - 4丁目のコロッケ屋さん"
+  description: "栃木県小山市間々田で創業1964年のテイクアウト弁当・お惣菜専門店。4丁目のコロッケ屋さんは全て手作り・作りたてにこだわり、コロッケ、メンチカツ、唐揚げ弁当など豊富なメニューをご用意。間々田駅周辺でお弁当・お惣菜をお探しの方はぜひご来店ください。"
+  author: "4丁目のコロッケ屋さん"
+  logo: "images/logo.png"
+  google_analytics_id: "UA-27693816-6"
+  structured_data:
+    description: "間々田・小山のテイクアウト弁当・お惣菜専門店"
+    serves_cuisine: "和食"
+    price_range: "¥"
+  revision_date: "2026-08-19"
+  copyright: "Copyright 2020 - 4丁目のコロッケ屋さん All Rights Reserved. Design and Developed By Themefisher.com"
+  phone:
+    display: "0285-45-0607"
+    href: "tel:0285450607"
+  address:
+    display: "栃木県小山市大字間々田1651-6"
+    street: "大字間々田1651-6"
+    locality: "小山市"
+    region: "栃木県"
+    postal_code: "329-0211"
+    country: "JP"
+  map_url: "https://goo.gl/maps/cBctZyKbCXeLPN4v8"
+  hours:
+    - start: "10:00"
+      end: "13:30"
+    - start: "16:00"
+      end: "18:30"
+  sold_out_notice: "売り切れ次第終了"
+  closed_days: "毎週月曜日、毎月第3火曜日"
+  flyer:
+    sold_out_notice: "なくなり次第終了"
+    salmon_note: "★焼き鮭入り"
+    tax_note: "※税込み価格です。"
+  navigation:
+    - label: "ホーム"
+      anchor: "hero-area"
+    - label: "お店について"
+      anchor: "about-us"
+    - label: "メニュー"
+      anchor: "price"
+    - label: "営業時間・連絡先"
+      anchor: "footer"
+
+content:
+  hero:
+    image: "images/header.jpg"
+    alt: "4丁目のコロッケ屋さん/外観"
+  about:
+    image: "images/cooker-img.png"
+    title: "1964年創業\n手作り/作りたてを徹底した、おいしいお惣菜・お弁当を販売しています"
+    description: "お客様にご注文をいただいてからお惣菜やお弁当を作っているため、他のお店にはない、できたての美味しさを十分に味わうことができます。\nまた、味だけでなく価格もお手頃になるよう日々工夫をしております。"
+  pricing:
+    title: "お惣菜・お弁当のご案内"
+    description: "すべて手作り/作りたてのお惣菜・お弁当。お昼に、夕食に食べていただきやすいよう、種類も価格も充実させています。"
+    note: "その他、パーティーオードブル 2,300円・3,240円\nご要望あれば、まずはご相談ください。"
+
+menu_sections:
+  - id: side_dish
+    label: "お惣菜"
+  - id: bento
+    label: "お弁当"
+
+# The PDF arrangement references product IDs only. Product names and prices
+# must never be duplicated here.
+pdf_grid:
+  side_dish:
+    - [croquette, menchi_cutlet, ham_cutlet]
+    - [potato_fry, aji_fry, ika_fry]
+    - [shrimp_fry, kushikatsu, salmon_fry]
+    - [tonkatsu, jo_tonkatsu, hire_katsu]
+    - [chicken_katsu, bite_hire_katsu, grilled_salmon]
+    - [karaage, yakibuta, chicken_roll]
+    - [raw_gyoza, grilled_gyoza, yakiniku]
+  bento:
+    - [croquette_bento, salmon_fry_bento, croquette_ham_bento]
+    - [menchi_bento, gyoza_bento, croquette_aji_bento]
+    - [karaage_bento, yakiniku_bento, croquette_karaage_bento]
+    - [aji_bento, seafood_mix_bento, menchi_ham_bento]
+    - [ika_bento, hamburger_bento, menchi_aji_bento]
+    - [hire_katsu_bento, special_bento, menchi_karaage_bento]
+    - [shrimp_fry_bento, tonkatsu_bento, menchi_croquette_bento]
+    - [makunouchi_bento, hamburger_shrimp_bento, ika_ham_bento]
+    - [special_makunouchi_bento, katsudon, ika_karaage_bento]
+    - [rice, hire_katsudon, ham_karaage_bento]
+    - [large_rice, bento_side_only, aji_karaage_bento]
+
+products:
+  - id: croquette
+    section: side_dish
+    name: "コロッケ"
+    description: "ソースなしでもおいしい"
+    unit: null
+    price: {amount: 100, kind: amount}
+    salmon_included: false
+  - id: menchi_cutlet
+    section: side_dish
+    name: "メンチカツ"
+    description: "豚肉100%でジュワッ"
+    unit: null
+    price: {amount: 130, kind: amount}
+    salmon_included: false
+  - id: ham_cutlet
+    section: side_dish
+    name: "ハムカツ"
+    description: "昭和の赤ハム"
+    unit: null
+    price: {amount: 100, kind: amount}
+    salmon_included: false
+  - id: potato_fry
+    section: side_dish
+    name: "ポテトフライ（3個）"
+    description: "栃木の名物！"
+    unit: "3個"
+    price: {amount: 100, kind: amount}
+    salmon_included: false
+  - id: aji_fry
+    section: side_dish
+    name: "アジフライ"
+    description: "骨なし三枚おろしで安心"
+    unit: null
+    price: {amount: 150, kind: amount}
+    salmon_included: false
+  - id: ika_fry
+    section: side_dish
+    name: "イカフライ（3個）"
+    description: "一口大のやわらかいイカを使用"
+    unit: "3個"
+    price: {amount: 160, kind: amount}
+    salmon_included: false
+  - id: shrimp_fry
+    section: side_dish
+    name: "海老フライ"
+    description: "ブラックタイガーを使用"
+    unit: null
+    price: {amount: 190, kind: amount}
+    salmon_included: false
+  - id: kushikatsu
+    section: side_dish
+    name: "串カツ"
+    description: "やわらかい赤身肉と玉ねぎ"
+    unit: null
+    price: {amount: 150, kind: amount}
+    salmon_included: false
+  - id: chicken_katsu
+    section: side_dish
+    name: "チキンカツ"
+    description: "国産鶏ももを皮なしでヘルシーに"
+    unit: null
+    price: {amount: 420, kind: amount}
+    salmon_included: false
+  - id: salmon_fry
+    section: side_dish
+    name: "鮭フライ"
+    description: ""
+    unit: null
+    price: {amount: 170, kind: amount}
+    salmon_included: false
+  - id: tonkatsu
+    section: side_dish
+    name: "とんかつ（ロース）"
+    flyer_name: "とんかつ"
+    description: "味のあるロース肉です"
+    unit: "ロース"
+    price: {amount: 390, kind: amount}
+    salmon_included: false
+  - id: jo_tonkatsu
+    section: side_dish
+    name: "上とんかつ（ロース）"
+    flyer_name: "上カツ"
+    description: "リブロースを使用"
+    unit: "ロース"
+    price: {amount: 490, kind: amount}
+    salmon_included: false
+  - id: hire_katsu
+    section: side_dish
+    name: "ヒレカツ"
+    description: "脂身が少なく、柔らかいお肉"
+    unit: null
+    price: {amount: 520, kind: amount}
+    salmon_included: false
+  - id: bite_hire_katsu
+    section: side_dish
+    name: "ひれ一口カツ（1個）"
+    flyer_name: "ひれ１口カツ"
+    description: "ヒレカツを更に食べやすく"
+    unit: "1個"
+    price: {amount: 150, kind: amount}
+    salmon_included: false
+  - id: karaage
+    section: side_dish
+    name: "若鶏唐揚げ 100g"
+    flyer_name: "唐揚げ\n１００ｇ"
+    description: "100gで3〜4個で一人前の量"
+    unit: "100g"
+    price: {amount: 228, kind: amount}
+    salmon_included: false
+  - id: yakibuta
+    section: side_dish
+    name: "焼き豚 100g"
+    flyer_name: "焼き豚\n１００ｇ"
+    description: "お酒のおつまみにカラシをつけて"
+    unit: "100g"
+    price: {amount: 258, kind: amount}
+    salmon_included: false
+  - id: chicken_roll
+    section: side_dish
+    name: "チキンロール 100g"
+    flyer_name: "チキンロール\n１００ｇ"
+    description: "照り焼き風"
+    unit: "100g"
+    price: {amount: 238, kind: amount}
+    salmon_included: false
+  - id: raw_gyoza
+    section: side_dish
+    name: "生餃子 10個入り"
+    flyer_name: "生餃子"
+    description: "にんにくたっぷりで手作り"
+    unit: "10個入り"
+    price: {amount: 360, kind: amount}
+    salmon_included: false
+  - id: grilled_gyoza
+    section: side_dish
+    name: "焼き餃子 10個入り"
+    flyer_name: "焼き餃子"
+    description: "焼いたものを持ち帰れます"
+    unit: "10個入り"
+    price: {amount: 450, kind: amount}
+    salmon_included: false
+  - id: yakiniku
+    section: side_dish
+    name: "焼き肉 1人前"
+    description: ""
+    unit: "1人前"
+    price: {amount: 360, kind: amount}
+    salmon_included: false
+  - id: grilled_salmon
+    section: side_dish
+    name: "焼シャケ"
+    description: ""
+    unit: null
+    price: {amount: 150, kind: amount}
+    salmon_included: false
+
+  - id: croquette_bento
+    section: bento
+    name: "コロッケ弁当"
+    description: "シャケ入り"
+    unit: null
+    price: {amount: 640, kind: amount}
+    salmon_included: true
+  - id: menchi_bento
+    section: bento
+    name: "メンチ弁当"
+    description: "シャケ入り"
+    unit: null
+    price: {amount: 670, kind: amount}
+    salmon_included: true
+  - id: croquette_ham_bento
+    section: bento
+    name: "コロッケ・ハムカツ弁当"
+    flyer_name: "コロ・ハム弁当"
+    description: ""
+    unit: null
+    price: {amount: 600, kind: amount}
+    salmon_included: false
+  - id: croquette_aji_bento
+    section: bento
+    name: "コロッケ・アジフライ弁当"
+    flyer_name: "コロ・アジ弁当"
+    description: ""
+    unit: null
+    price: {amount: 600, kind: amount}
+    salmon_included: false
+  - id: croquette_karaage_bento
+    section: bento
+    name: "コロッケ・唐揚げ弁当"
+    flyer_name: "コロ・から弁当"
+    description: ""
+    unit: null
+    price: {amount: 630, kind: amount}
+    salmon_included: false
+  - id: menchi_croquette_bento
+    section: bento
+    name: "メンチ・コロッケ弁当"
+    flyer_name: "メン・コロ弁当"
+    description: ""
+    unit: null
+    price: {amount: 630, kind: amount}
+    salmon_included: false
+  - id: menchi_ham_bento
+    section: bento
+    name: "メンチ・ハムカツ弁当"
+    flyer_name: "メン・ハム弁当"
+    description: ""
+    unit: null
+    price: {amount: 630, kind: amount}
+    salmon_included: false
+  - id: menchi_aji_bento
+    section: bento
+    name: "メンチ・アジフライ弁当"
+    flyer_name: "メン・アジ弁当"
+    description: ""
+    unit: null
+    price: {amount: 630, kind: amount}
+    salmon_included: false
+  - id: menchi_karaage_bento
+    section: bento
+    name: "メンチ・唐揚げ弁当"
+    flyer_name: "メン・から弁当"
+    description: ""
+    unit: null
+    price: {amount: 660, kind: amount}
+    salmon_included: false
+  - id: karaage_bento
+    section: bento
+    name: "からあげ弁当"
+    description: "シャケ入り"
+    unit: null
+    price: {amount: 660, kind: amount}
+    salmon_included: true
+  - id: ham_karaage_bento
+    section: bento
+    name: "ハム・唐揚げ弁当"
+    flyer_name: "ハム・から弁当"
+    description: ""
+    unit: null
+    price: {amount: 630, kind: amount}
+    salmon_included: false
+  - id: special_bento
+    section: bento
+    name: "スペシャル弁当"
+    description: "コロッケ・海老フライ・ひれ一口カツ"
+    unit: null
+    price: {amount: 780, kind: amount}
+    salmon_included: false
+  - id: seafood_mix_bento
+    section: bento
+    name: "海鮮ミックス弁当"
+    description: "アジフライ・海老フライ・イカフライ"
+    unit: null
+    price: {amount: 690, kind: amount}
+    salmon_included: false
+  - id: aji_bento
+    section: bento
+    name: "アジフライ弁当"
+    description: "シャケ入り"
+    unit: null
+    price: {amount: 670, kind: amount}
+    salmon_included: true
+  - id: aji_karaage_bento
+    section: bento
+    name: "アジ・唐揚げ弁当"
+    flyer_name: "アジ・から弁当"
+    description: ""
+    unit: null
+    price: {amount: 660, kind: amount}
+    salmon_included: false
+  - id: ika_bento
+    section: bento
+    name: "イカフライ弁当"
+    description: "シャケ入り"
+    unit: null
+    price: {amount: 670, kind: amount}
+    salmon_included: true
+  - id: ika_ham_bento
+    section: bento
+    name: "イカ・ハム弁当"
+    description: ""
+    unit: null
+    price: {amount: 660, kind: amount}
+    salmon_included: false
+  - id: ika_karaage_bento
+    section: bento
+    name: "イカ・唐揚げ弁当"
+    flyer_name: "イカ・から弁当"
+    description: ""
+    unit: null
+    price: {amount: 660, kind: amount}
+    salmon_included: false
+  - id: salmon_fry_bento
+    section: bento
+    name: "鮭フライ弁当"
+    description: ""
+    unit: null
+    price: {amount: 600, kind: amount}
+    salmon_included: false
+  - id: shrimp_fry_bento
+    section: bento
+    name: "海老フライ弁当"
+    description: "シャケ入り"
+    unit: null
+    price: {amount: 850, kind: amount}
+    salmon_included: true
+  - id: hire_katsu_bento
+    section: bento
+    name: "ヒレかつ弁当"
+    flyer_name: "ヒレカツ弁当"
+    description: "シャケ入り"
+    unit: null
+    price: {amount: 790, kind: amount}
+    salmon_included: true
+  - id: tonkatsu_bento
+    section: bento
+    name: "とんかつ弁当"
+    description: ""
+    unit: null
+    price: {amount: 780, kind: amount}
+    salmon_included: false
+  - id: katsudon
+    section: bento
+    name: "かつ丼"
+    description: ""
+    unit: null
+    price: {amount: 680, kind: amount}
+    salmon_included: false
+  - id: hire_katsudon
+    section: bento
+    name: "ヒレかつ丼"
+    description: ""
+    unit: null
+    price: {amount: 780, kind: amount}
+    salmon_included: false
+  - id: gyoza_bento
+    section: bento
+    name: "餃子弁当"
+    description: ""
+    unit: null
+    price: {amount: 650, kind: amount}
+    salmon_included: false
+  - id: yakiniku_bento
+    section: bento
+    name: "焼肉弁当"
+    flyer_name: "焼き肉弁当"
+    description: "豚ロースを使用"
+    unit: null
+    price: {amount: 690, kind: amount}
+    salmon_included: false
+  - id: hamburger_bento
+    section: bento
+    name: "ハンバーグ弁当"
+    description: ""
+    unit: null
+    price: {amount: 700, kind: amount}
+    salmon_included: false
+  - id: hamburger_shrimp_bento
+    section: bento
+    name: "ハンバーグ・エビフライ弁当"
+    flyer_name: "ハンバーグ・海老弁当"
+    description: ""
+    unit: null
+    price: {amount: 880, kind: amount}
+    salmon_included: false
+  - id: makunouchi_bento
+    section: bento
+    name: "幕の内弁当"
+    description: "アジフライ・ひれ一口カツ・焼肉・シャケ入り"
+    unit: null
+    price: {amount: 920, kind: amount}
+    salmon_included: true
+  - id: special_makunouchi_bento
+    section: bento
+    name: "特製幕の内弁当"
+    description: "海老フライ・アジフライ・ひれ一口カツ・焼肉・シャケ入り"
+    unit: null
+    price: {amount: 1100, kind: amount}
+    salmon_included: true
+  - id: rice
+    section: bento
+    name: "ライス単品"
+    description: ""
+    unit: null
+    price: {amount: 220, kind: amount}
+    salmon_included: false
+  - id: large_rice
+    section: bento
+    name: "ライス大盛り"
+    description: ""
+    unit: null
+    price: {amount: 70, kind: surcharge}
+    salmon_included: false
+  - id: bento_side_only
+    section: bento
+    name: "弁当おかずのみ"
+    flyer_name: "おかずのみの注文"
+    description: ""
+    unit: null
+    price: {amount: 130, kind: discount}
+    salmon_included: false

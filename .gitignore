@@ -1,1 +1,4 @@
-public/
+.venv/
+dist/
+tmp/
+__pycache__/
