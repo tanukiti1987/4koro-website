@@ -115,6 +115,20 @@
             </div>
             {% endfor %}
 
+            {% if content.pricing.seasonal_offer is defined and content.pricing.seasonal_offer.enabled %}
+            <div class="row">
+              <div class="col-md-12">
+                <div class="block">
+                  <p class="pickup">
+                    <span class="sale_range">{{ content.pricing.seasonal_offer.sale_range }}</span>
+                    <br /><br />
+                    {{ content.pricing.seasonal_offer.description | nl2br }}
+                  </p>
+                </div>
+              </div>
+            </div>
+            {% endif %}
+
             <div class="row">
               <div class="col-md-12">
                 <div class="block">
